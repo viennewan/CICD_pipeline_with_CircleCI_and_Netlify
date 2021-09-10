@@ -44,7 +44,7 @@ workflows: # decide the jobs to run.
 ```yaml
 jobs:
   deploy:
-    working_directory: ~/project/Vienne_Wan_DevOps_Technical_Assessment
+    working_directory: ~/project/website
     docker:
       - image: circleci/node:lts # choose image with node to run this job
     environment:
@@ -86,7 +86,7 @@ jobs:
 
 ```json
 {
-  "name":"vienne-assessment",
+  "name":"website-deploy",
   "license": "MIT",
   "private": true,
   "dependencies": {
