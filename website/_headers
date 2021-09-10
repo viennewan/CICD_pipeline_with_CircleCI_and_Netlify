@@ -1,0 +1,4 @@
+/*
+ Server: Bowtie
+ Content-Security-Policy: default-src 'none';
+ Other-Headers-Here: Header-Value

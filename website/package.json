@@ -1,0 +1,13 @@
+{
+  "name":"vienne-assessment",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "netlify-cli": "^6.7.1"
+  },
+  "scripts": {
+    "login": "netlify login",
+    "link": "netlify link --id 60ec17e7-d954-4cd2-aecf-28e2d09620ba",
+    "deploy":"netlify deploy --prod --site 60ec17e7-d954-4cd2-aecf-28e2d09620ba --dir ."
+  }
+}
