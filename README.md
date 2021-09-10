@@ -4,7 +4,7 @@
 
 To get start with, I downloaded the very initial sample app in Netlify, which is a very simple html page.
 
-![image](README_PICS/local_thanos_js.png)
+![image](README_PICS/local_thanos_js_new.png)
 
 
 
